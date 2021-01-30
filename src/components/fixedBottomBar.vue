@@ -32,19 +32,20 @@ export default {
     margin: 0;
     padding: 0;
     margin: 0 56px;
-    display: flex;
     flex-wrap: wrap;
 }
 .fixed-bottom-bar-components ul > li {
- 
     display: inline-block;
-    padding: 10px;
+    padding: 6px 15px;
     cursor: pointer;
     flex: 1;
     text-align: center;
+    border-right: 1px solid var(--warning);
+    color: var(--warning);
 }
 .fixed-bottom-bar-components ul > li:hover{
-    background: #195bff;
+    background: #ffc107;
+    color:#FFF;
     transition: all .5s ease !important;
 }
 

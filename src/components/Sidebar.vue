@@ -6,6 +6,7 @@
         :left="!$store.state.isRTL"
         hover-expand
         reduce
+        color="#ffc107"
         v-model="active"
         open
         >

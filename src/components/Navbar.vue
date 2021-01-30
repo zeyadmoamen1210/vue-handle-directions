@@ -209,6 +209,10 @@ data:() => ({
 </script>
 
 <style>
+.vs-navbar{
+  background: #333;
+    color: #ffc107;
+}
 .vs-navbar-content{
     border-radius: 0;
 }
@@ -234,6 +238,20 @@ data:() => ({
 
 }
 
+.vs-navbar__group__item{
+  padding: 10px 15px;
+    background: transparent;
+    color: inherit;
+    font-weight: bold;
+    transition: all 0.25s ease, color 0s;
+    opacity: 0.7;
+    border: 0px;
+    border: 1px solid #ffc107;
+    padding: 6px;
+    margin: 0 3px;
+    /* border-radius: 106px; */
+    border-radius: 5px;
+}
 .vs-navbar__right{
         width: 90% !important;
     margin-right: 37px;
